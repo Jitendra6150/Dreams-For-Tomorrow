@@ -1,0 +1,923 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    background-color: rgb(15, 14, 14);
+}
+.navbar .navbar-brand img{
+    width: 200px;
+    height: 80px;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    color: white;
+    font-weight: 900;
+    margin-right: 20px;
+}
+
+.child{
+    background-image: url(assets/main.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+#children h1{
+    font-size: 72px;
+    font-weight: 900;
+}
+#children button{
+    width: 150px;
+    height: 50px;
+    font-size: larger;
+    font-weight: 600;
+    background-color: orange;
+    color: black;
+    border: none;
+    border-radius: 10px;
+}
+
+#can{
+    background-color: rgb(15, 14, 14);
+}
+#can .we span{
+    color: orange;
+}
+#can .we h2{
+    font-weight: 900;
+    font-size: 34px;
+    color: white;
+}
+#can .we p{
+    text-align: justify;
+}
+#can .do h5{
+     font-size: 24px;
+     margin-top: 10px;
+     font-weight: 700;
+     text-align: center;
+     color: white;
+}
+#can .do p{
+    text-align: justify;
+    padding: 10px;
+}
+
+.what{
+    background-image: url(assets/b&w.png);
+    background-position: center;
+    background-size: cover;
+    height: 120vh;
+}
+#life{
+    margin-bottom: -150px;
+    position: relative;
+    margin-top: 50px;
+}
+#life h1{
+   font-size: 48px;
+   font-weight: 900;
+   color: white;
+}
+#video{
+    margin-top: -175px;
+}
+#years{
+    margin-top: -120px;
+    position: relative;
+}
+#years h1{
+    font-size: 42px;
+    color: orange;
+    font-weight: 900;
+}
+#years p{
+    color: orange;
+}
+
+#connect{
+    background-color: rgb(15, 14, 14);
+    margin-top: -10px;
+}
+#connect .people h5{
+    font-size: 20px;
+    color: orange;
+}
+#connect .people h2{
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+}
+
+#latest{
+    background-color: rgb(15, 14, 14);
+}
+#latest .causes h1{
+    font-weight: 900;
+    font-size: 48px;
+    color: white;
+}
+#latest .causes h5{
+    color: orange;
+}
+#latest .causes p{
+     font-size: 16px;
+}
+#latest .better h4{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 800;
+    border-bottom: 2px solid rgb(125, 122, 122);
+}
+#latest .better p{
+    text-align: justify;
+    color: rgb(27, 26, 26);
+}
+#latest .better h5::before{
+    content: "\221A";
+    color: orange;
+    margin-right: 10px;
+}
+#latest .better h5{
+    border-bottom: 2px solid rgb(115, 114, 114);
+    color: black;
+}
+#latest .better button{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(15, 14, 14);
+    color: white;
+}
+#latest .better button:hover{
+   background-color: orange;
+   color: black;
+}
+#latest .better .card:hover{
+    border: 2px solid orange;
+}
+
+#everyone{
+    background-image: url(assets/smile.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+.someone h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+}
+.someone button{
+   width: 200px;
+   height: 50px;
+   border-radius: 10px;
+   background-color: orange;
+   margin-top: 50px;
+}
+
+#artical{
+    background-color: rgb(15, 14, 14);
+}
+#artical .enrich h5{
+    color: orange;
+}
+#artical .enrich h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+}
+#artical .medicine .card:hover{
+    border: 2px solid orange;
+}
+#artical .medicine .card{
+    margin-bottom: 20px;
+}
+#artical .medicine span{
+    color: orange;
+}
+#artical .medicine h4{
+    font-size: 22px;
+    font-weight: 900;
+    margin-top: 10px;
+}
+#artical .medicine p{
+      text-align: justify;
+      color: grey;
+}
+#artical .medicine button{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(15, 14, 14);
+    color: white;
+    border-radius: 10px;
+}
+#artical .medicine button:hover{
+    width: 150px;
+    height: 40px;
+    background-color: orange;
+    color: black;
+    border-radius: 10px;
+}
+p{
+    color: white;
+}
+
+#may{
+    background-color: rgb(15, 14, 14);
+}
+#may .assist img{
+    border-radius: 20px;
+}
+#may .assist h1{
+    font-size: 42px;
+    font-weight: 900;
+    color: white;
+}
+#may .images h3{
+    font-size: 24px;
+    font-weight: 800;
+    color: white;
+}
+
+#become{
+    background-color: rgb(15, 14, 14);
+}
+#become label{
+    background-color: rgb(15, 14, 14);
+    color: white;
+    border: 2px solid orange;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#become .with span{
+    color: orange;
+}
+#become .with h2{
+    font-size: 38px;
+    font-weight: 900;
+    color: white;
+}
+#become .join button{
+    width: 150px;
+    height: 40px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: orange;
+}
+
+footer {
+    background-color: rgb(15, 14, 14);
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+footer .social-icons i{
+    color: orange;
+}
+.footer-links {
+    margin-top: 20px;
+}
+.footer-links a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.social-icons a{
+    margin-right: 20px;
+}
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+#organ .organ1 h1{
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+#organ .organ1 h5{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 40px;
+    color: white;
+}
+#organ .organ1 p{
+    text-align: justify;
+}
+#organ .organ1 img{
+    border-radius: 20px;
+}
+#organ{
+    background-color: rgb(15, 14, 14);
+}
+.organ2{
+    background-color: rgb(15, 14, 14);
+}
+
+.found{
+    background-image: url(assets/found.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+
+#col .col-4{
+    border: 2px solid white;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#col .col-4 h2,h5{
+   color: white;
+}
+
+
+#botton{
+    background-color: rgb(15, 14, 14);
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#botton .six{
+    margin-top: 50px;
+}
+#botton .six h5{
+    text-align: center;
+    color: chocolate;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#botton .six h1{
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#botton .six1 h5{
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#botton .six1 p{
+    text-align: center;
+    color: white;
+}
+#botton .six1{
+    margin-top: 50px;
+}
+#botton button{
+    width: 250px;
+    height: 40px;
+    color: black;
+    background-color: orange;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+#blog{
+    background-color: rgb(15, 14, 14);
+}
+#blog h1{
+    color: white;
+}
+#blog .king h2,h6{
+    color: white;
+}
+#blog .queen h2,h6{
+    color: white;
+}
+#blog h2{
+    font-size: 24px;
+}
+#blog .col-12{
+    box-shadow: 2px 2px 5px 2px grey;
+}
+#blog .col-12 .king1{
+    padding: 10px;
+}
+
+#flash{
+    background-color: rgb(15, 14, 14);
+}
+#flash h1,h5{
+    color: white;
+}
+#flash h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#flaw{
+    background-color: rgb(15, 14, 14);
+}
+#flaw label{
+    background-color: rgb(15, 14, 14);
+    color: white;
+    border: 2px solid orange;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.doner2 button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+#donor{
+    background-color: rgb(15, 14, 14);
+}
+#donor p{
+    color: rgb(32, 32, 32);
+}
+.doner3 h4,li{
+    color: white;
+}
+#donor .doner3 p{
+    color: white;
+}
+
+#kong{
+    background-color: rgb(15, 14, 14);
+}
+#kong .kong1 p{
+    text-align: justify;
+}
+
+#godz{
+    background-color: rgb(15, 14, 14);
+}
+#godz button{
+    width: fit-content;
+    height: 40px;
+    border: none;
+    background-color: orange;
+    color: white;
+}
+#godz .card h4{
+    font-size: 22px;
+    font-weight: 900;
+}
+#godz .card p{
+    text-align: justify;
+}
+#acting{
+    height: 80vh;
+}
+
+#poor1{
+    background-color: rgb(15, 14, 14);
+}
+#poor1 .poor2{
+    margin-right: 10px;
+}
+#poor1 .poor3 p{
+   text-align: justify;
+}
+#poor1 .poor3 .poor4{
+    text-align: center;
+}
+
+#event1{
+    background-color: rgb(15, 14, 14);
+}
+
+@media(max-width:600px){
+    .child{
+        background-image: url(assets/main.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 50vh;
+    }
+    #children h1{
+        font-size: 24px !important;
+        font-weight: 900;
+    }
+    #children button{
+        width: 100px !important;
+        height: 40px !important;
+        font-size: smaller;
+        font-weight: 600;
+        background-color:orange;
+        color: black;
+    }
+    #children p{
+        font-size: 8px !important;
+    }
+
+    #can .we h2{
+        font-weight: 900;
+        font-size: 18px !important;
+    }
+    #can .we p{
+        text-align: justify;
+    }
+    #can .do h5{
+         font-size: 12px !important;
+         margin-top: 10px;
+         text-align: center;
+    }
+    #can .do p{
+        font-size: 11px !important;
+    }
+
+    .what{
+        background-image: url(assets/b&w.png);
+        background-position: center;
+        background-size: cover;
+        height: 100vh !important;
+    }
+    #life{
+        margin-bottom: -150px;
+        position: relative;
+        margin-top: 50px;
+    }
+    #life h1{
+       font-size: 20px;
+       font-weight: 900;
+       color: white;
+    }
+    #video{
+        margin-top: -80px;
+    }
+    #video iframe{
+        width: 350px !important;
+        height: 250px !important;
+    }
+    #years{
+        margin-top: -120px;
+        position: relative;
+    }
+    #years h1{
+        font-size: 18px !important;
+        color: orange;
+    }
+    #years p{
+        font-size: 10px !important;
+        color: orange;
+    }
+
+    #connect .people h2{
+        font-size: 18px !important;
+        font-weight: 900;
+    }
+
+    #latest .causes h1{
+        font-weight: 900;
+        font-size: 20px !important;
+    }
+    #latest .causes p{
+         font-size: 10px !important;
+    }
+
+    .someone h1{
+        font-size: 30px !important;
+        font-weight: 900;
+        color: white;
+    }
+    #everyone{
+        background-image: url(assets/smile.jpeg);
+        background-position: center;
+        background-size: cover;
+        height: 60vh;
+    }
+
+    #artical .enrich h5{
+        font-size: 12px;
+    }
+    #artical .enrich h1{
+        font-size: 24px !important;
+        font-weight: 900;
+    }
+
+    #may .assist h1{
+        font-size: 24px !important;
+        font-weight: 900;
+    }
+    #may .need p{
+        font-size: 7px !important;
+    }
+    #may .images h3{
+        font-size: 16px;
+        font-weight: 800;
+    }
+
+    #organ .organ1 h1{
+        font-size: 24px !important;
+    }
+    #organ .organ1 h5{
+        font-size: 14px;
+    }
+
+    #col .col-4 h2{
+        font-size: 14px !important;
+    }
+    #col .col-4 h5{
+        font-size: 10px !important;
+    }
+    #col .col-4 p{
+        font-size: 8px !important;
+    }
+    #col .col-4{
+        height: 200px;
+    }
+
+    #blog h2{
+        font-size: 20px;
+    }
+    #poor1 .poor3 img{
+        width: 100% !important;
+    }
+    #poor1 .poor3 p{
+       width: 280px;
+    }
+    #poor1 .poor3 img{
+        width: 300px !important;
+        margin-left: -30px;
+     }
+    #poor1 .poor3 .poor4{
+        margin-left: -70px;
+    }
+    
+    #event1 h2{
+        color: white;
+        font-size: 18px !important;
+    }
+    #event1 h5{
+        font-size: 10px !important;
+    }
+    #event1 p{
+       font-size: 8px;
+    }
+    #event1 img{
+        height: 230px !important;
+    }
+    .event11 p{
+        width: 300px;
+        margin-left: -50px;
+    }
+}
+
+@media(max-width:1000px){
+    #children h1{
+        font-size: 36px;
+        font-weight: 900;
+    }
+    #children button{
+        width: 100px;
+        height: 40px;
+        font-size: smaller;
+        font-weight: 600;
+        background-color:orange;
+        color: black;
+    }
+    #children p{
+        font-size: 10px;
+    }
+
+    #can .we h2{
+        font-weight: 900;
+        font-size: 24px;
+    }
+    #can .we p{
+        text-align: justify;
+    }
+    #can .do h5{
+         font-size: 14px;
+         margin-top: 10px;
+         text-align: center;
+    }
+    #can .do p{
+        font-size: 13px;
+    }
+
+    .what{
+        background-image: url(assets/b&w.png);
+        background-position: center;
+        background-size: cover;
+        height: 120vh;
+    }
+    #life{
+        margin-bottom: -150px;
+        position: relative;
+        margin-top: 50px;
+    }
+    #life h1{
+       font-size: 26px !important;
+       font-weight: 900;
+       color: white;
+    }
+    #video iframe{
+        width: 550px;
+        height: 350px;
+    }
+    #video{
+        margin-top: -80px;
+    }
+    #years{
+        margin-top: -120px;
+        position: relative;
+    }
+    #years h1{
+        font-size: 32px !important;
+        color: orange;
+    }
+    #years span{
+        display: none;
+    }
+    #years p{
+        font-size: 12px;
+        color: orange;
+    }
+
+    #connect .people h2{
+        font-size: 30px;
+        font-weight: 900;
+    }
+
+    #latest .causes h1{
+        font-weight: 900;
+        font-size: 32px;
+    }
+    #latest .causes p{
+         font-size: 14px;
+    }
+
+    #artical .enrich h5{
+        font-size: 14px;
+    }
+    #artical .enrich h1{
+        font-size: 38px;
+        font-weight: 900;
+    }
+
+    #may .need p{
+        font-size: 10px;
+    }
+    
+    #col .col-4 h2{
+        font-size: 24px;
+    }
+    #col .col-4 h5{
+        font-size: 16px;
+    }
+    #col .col-4 p{
+        font-size: 12px;
+    }
+
+    #flash h1{
+        font-size: 20px;
+    }
+
+    #event1 h2{
+        color: white;
+        font-size: 24px;
+    }
+    #event1 h5{
+        font-size: 16px;
+    }
+    #event1 img{
+        height: 300px;
+    }
+}
+
+
+@media(max-width:1200px){
+    #children h1{
+        font-size: 48px;
+        font-weight: 900;
+    }
+    #children button{
+        width: 150px;
+        height: 50px;
+        font-size: smaller;
+        font-weight: 600;
+        background-color: orange;
+        color: black;
+    }
+    #children p{
+        font-size: 13px;
+    }
+
+    #can .we h2{
+        font-weight: 900;
+        font-size: 28px;
+    }
+    #can .we p{
+        text-align: justify;
+    }
+    #can .do h5{
+         font-size: 18px;
+         margin-top: 10px;
+         text-align: center;
+    }
+    #can .do p{
+        text-align: justify;
+        padding: 10px;
+    }
+
+    .what{
+        background-image: url(assets/b&w.png);
+        background-position: center;
+        background-size: cover;
+        height: 120vh;
+    }
+    #life{
+        margin-bottom: -150px;
+        position: relative;
+        margin-top: 50px;
+    }
+    #life h1{
+       font-size: 42px;
+       font-weight: 900;
+       color: white;
+    }
+    #years{
+        margin-top: -120px;
+        position: relative;
+    }
+    #years h1{
+        font-size: 38px;
+        color: orange;
+    }
+    #years p{
+        color: orange;
+    }
+
+    #latest .causes p{
+         font-size: 14px;
+    }
+    #latest .better h4{
+        text-align: center;
+        font-size: 22px;
+        font-weight: 800;
+        border-bottom: 2px solid rgb(125, 122, 122);
+    }
+    #latest .better h5{
+        font-size: 16px;
+    }
+    #latest .better p{
+        font-size: 14px;
+        text-align: justify;
+    }
+    #latest .better button{
+        width: 150px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: orange;
+        color: black;
+    }
+
+    .someone h1{
+        font-size: 42px;
+        font-weight: 900;
+        color: white;
+    }
+
+    #artical .medicine h4{
+        font-size: 18px;
+        font-weight: 900;
+        margin-top: 10px;
+    }
+    #artical .medicine p{
+          text-align: justify;
+          color: grey;
+    }
+
+    #may .assist h1{
+        font-size: 32px;
+        font-weight: 900;
+    }
+
+    #organ .organ1 h1{
+        font-size: 32px;
+    }
+    #organ .organ1 h5{
+        font-size: 16px;
+    }
+
+    #blog h2{
+        font-size: 20px !important;
+    }
+}
